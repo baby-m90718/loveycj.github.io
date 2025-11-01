@@ -143,9 +143,9 @@
             loveScore = loveScore % 101;
             
             const comments = [
-                `我们的匹配度是${loveScore}%！原来我们是天造地设的一对呀～`,
-                `爱情指数${loveScore}%！看来我要更努力爱你才行`,
-                `心动值${loveScore}%！每天都比昨天更爱你一点`
+                `我们的匹配度是${100}%！原来我们是天造地设的一对呀～`,
+                `爱情指数${100}%！看来我要更努力爱你才行`,
+                `心动值${100}%！每天都比昨天更爱你一点`
             ];
             const comment = comments[Math.floor(Math.random() * comments.length)];
             document.getElementById("result").textContent = comment;
